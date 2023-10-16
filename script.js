@@ -16,7 +16,7 @@ document.getElementById('login-form').addEventListener('submit', function (e) {
         }
 
         alert('Login successful');
-        window.location.href = 'home.html';
+        window.location.href = 'index.html';
     } catch (error) {
         // Handle validation errors
         alert(error.message);
